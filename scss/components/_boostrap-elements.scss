@@ -1,0 +1,19 @@
+/*FORM DE CONTACTO BOOSTRAP*/
+
+.form-label {
+    color: white;
+}
+
+.form-control {
+    border: 2px solid;
+    border-color: $primary-color;
+    border-radius: 0px;
+    background-color: #0000;
+    color: $primary-color;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Redirigir /contacto a /pages/contacto.html
+RewriteRule ^contacto$ pages/contacto.html [L]
+
+# Redirigir /acerca-de a /pages/acerca-de.html
+RewriteRule ^sobre-nosotros$ pages/acerda-de.html [L]
+
+# Redirigir /proyectos a /pages/proyectos.html
+RewriteRule ^proyectos$ pages/proyectos.html [L]
+
+# Redirigir /servicios a /pages/servicios.html
+RewriteRule ^servicios$ pages/servicios.html [L]
+
+# Redirigir /inicio a /index.html
+RewriteRule ^inicio$ index.html [L]

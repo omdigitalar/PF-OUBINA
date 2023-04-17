@@ -1,0 +1,338 @@
+@media (max-width: 800px) {
+
+    /*HEADER*/
+    .navbar-expand-lg .navbar-collapse {
+        background-color: rgba(31, 31, 31, 0.822);
+
+        ul {
+            li {
+                a {
+                    &:hover {
+                        color: #9a9a9a;
+                    }
+                }
+            }
+        }
+    }
+
+    .container-fluid {
+        .navbar-brand {
+            margin: 20px;
+            img {
+                max-width: 150px;
+            }
+        }
+        .navbar-toggler {
+            margin: 20px;
+        }
+        #navbarNav {
+            padding: 0px;
+        }
+    }
+    
+    
+
+    /*section principal*/
+    .sectionPortada {
+        .portada-pagina-contacto {
+            padding: 0px 50px;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 35px;
+            }
+
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .info-de-contacto {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px 0px;
+    }
+
+    .boton-portada {
+        padding-bottom: 30px;
+    }
+
+    /*HOME*/
+
+    .impronta,
+    .nuestra-impronta,
+    .diferenciales {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .nuestra-impronta,
+    .diferenciales {
+        text-align: start;
+        padding: 40px;
+
+        h2 {
+            margin: 0px;
+            padding: 0px;
+            font-size: 40px;
+        }
+    }
+
+    .impronta {
+        .nuestra-impronta {
+            width: 100%;
+            margin: 0px;
+            padding: 50px;
+        }
+
+        .diferenciales {
+            width: 100%;
+            margin: 0px;
+            padding: 0px 50px;
+            text-align: start;
+        }
+    }
+
+    .servicios {
+        .bloque-servicios {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100%;
+            padding: 0px;
+
+            .listado-servicios1 ul {
+                padding: 0px;
+                margin: 0px;
+                text-align: center;
+
+                li {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .adaptamos h3 {
+        font-size: 20px;
+    }
+
+    .adaptamos h4 {
+        font-size: 20px;
+    }
+
+    .ver-mas-proyectos {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .ultimos-trabajos {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+
+        .ultimos-titulo {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            h2 {
+                width: 100%;
+                margin: 0px;
+                text-align: center;
+                padding: 50px 20px;
+                font-size: 30px;
+                width: 100%;
+                display: grid;
+                justify-content: center;
+            }
+        }
+
+        .trabajos-index {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+
+            .trabajo1,
+            .trabajo2,
+            .trabajo3,
+            .trabajo4 {
+                display: flex;
+                justify-content: center;
+                margin: 0px;
+
+                img {
+                    margin: 0px;
+                    padding: 0px;
+                    max-width: 450px;
+                    box-shadow: 10px 10px 4px rgb(14, 14, 14);
+                }
+            }
+        }
+
+        .ver-mas-proyectos {
+            text-align: center;
+        }
+    }
+
+    .clientes div h2 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .adaptamos,
+    .adaptamos-2 {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        h2 {
+            margin: 0px 0px 50px 0px;
+            font-size: 1.5rem;
+            padding: 0px 30px;
+        }
+
+        h3 {
+            margin: 0px;
+            font-size: 1.5rem;
+            padding: 0px 30px;
+        }
+    }
+
+    .adaptamos3 {
+        text-align: center;
+        padding-top: 50px;
+
+        h2 {
+            margin: 0px 0px 50px 0px;
+            font-size: 1.5rem;
+            padding: 0px 30px;
+        }
+
+        h3 {
+            margin: 0px;
+            font-size: 1.5rem;
+            padding: 0px 30px;
+        }
+    }
+
+    /*PAGINA ACERCA DE*/
+
+    .cv {
+        grid-template-columns: 1fr;
+        padding: 0px 40px;
+        width: 100%;
+        margin: 0px;
+
+        .div-foto {
+            max-width: 100%;
+            justify-content: center;
+            padding: 100px 60px 0px 60px;
+            display: flex;
+
+            img {
+                max-width: 100%;
+                padding: 0px 60px;
+                height: auto;
+                justify-content: center;
+            }
+        }
+
+        .data-cv {
+            h3 {
+                font-size: 1rem;
+            }
+
+            h4 {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .section-presentacion {
+        padding: 0px 50px;
+        width: 100%;
+        margin: 0px;
+
+        .presentacion-pagina {
+            padding-top: 50px;
+        }
+
+        .que-es-OM {
+            .section-presentacion h4 {
+                margin: 0px;
+                font-weight: 600;
+                padding-bottom: 30px;
+                font-size: 30px;
+            }
+        }
+    }
+
+    /*PAGINA SERVICIOS*/
+
+    .cards-servicios {
+        .card-group {
+            @include grid-web (100%, 1fr 1fr, center, top, 40px);
+            margin: 0px;
+            padding: 20px 0px;
+        }
+    }
+
+    /*PROYECTOS*/
+
+    .grid-proyectos {
+        @include grid-web (100%, 1fr, center, center, 20px);
+        padding: 50px 100px 0px 100px;
+        margin: 0px;
+
+        figure {
+            max-width: 500px;
+            padding: 0px;
+            margin: 0px;
+
+            img,
+            iframe {
+                max-width: 500px;
+            }
+
+            figcaption {
+                padding-bottom: 20px;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .cierre-proyectos {
+        padding: 10px 50px 50px 50px;
+        margin: 0px;
+    }
+
+    /*CONTACTO*/
+
+    .contacto-data-form {
+        @include grid-web (100%, 1fr, start, top, 40px);
+        margin: 0;
+        padding: 50px;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+
+        img {
+            margin-left: -9px;
+        }
+    }
+}

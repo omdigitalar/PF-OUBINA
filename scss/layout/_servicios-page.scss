@@ -1,0 +1,51 @@
+/*Pagina servicios*/
+
+.cards-servicios {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+
+    .card-group {
+        @include grid-web (100%, 1fr 1fr 1fr, center, top, 40px);
+        margin: 0px;
+        padding: 20px 50px;
+
+        .card {
+            max-width: 300px;
+            background-color: #0000;
+            justify-self: center;
+
+            .card-body {
+                max-width: 300px;
+                border-radius: 0px;
+                border: $primary-color solid;
+                background-color: #0000;
+                padding: 20px 20px;
+                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+                box-shadow: 0 0 5px rgba(57, 101, 60, 0.5);
+
+                &:hover {
+                    transform: scale(1.05);
+                    box-shadow: 0 0 15px rgba(57, 101, 60, 0.5);
+                }
+
+                .card-title {
+                    color: $primary-color;
+                    font-family: $font-main;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    padding: 10px 0px;
+                }
+            }
+        }
+    }
+}
+
+.adaptamos3 h3 {
+    margin: 0px;
+    font-size: 30px;
+    padding: 0px 30px;
+    text-align: center;
+}

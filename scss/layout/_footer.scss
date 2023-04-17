@@ -1,0 +1,22 @@
+/*COMIENZO FOOTER*/
+
+footer {
+    background-color: white;
+    padding: 50px;
+    color: $backg-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 50px 50px;
+
+    p {
+        color: $backg-color;
+        line-height: 1.5rem;
+        font-size: 14px;
+    }
+
+    h3 {
+        color: $backg-color;
+        font-size: 30px;
+    }
+}

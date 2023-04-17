@@ -1,0 +1,62 @@
+/*HEADER*/
+
+header {
+    height: 100px;
+    margin-bottom: -100px;
+}
+
+/*nuevo menu boostrap*/
+
+
+.nav-link {
+    color: $primary-color;
+}
+
+.navbar-nav li a {
+    padding: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+    text-align: center;
+    padding: 50px 30px 50px 50px;
+
+    ul {
+        li {
+            a {
+                &:hover {
+                    color: #9a9a9a;
+                }
+            }
+        }
+    }
+}
+
+.navbar-toggler {
+    color: $primary-color;
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    background: #0000;
+    border: $primary-color solid 2px;
+}
+
+.navbar-toggler {
+    text-decoration: none;
+    background: #0000;
+    border: $primary-color solid 2px;
+    color: $primary-color;
+}
+
+    .navbar-brand {
+        margin: 30px 50px;
+        img {
+            max-width: 200px;
+        }
+    }
+

@@ -1,0 +1,62 @@
+p {
+    color: white;
+    font-family: $font-main;
+
+    &::selection {
+        background-color: $primary-color;
+        color: rgb(15, 15, 15);
+    }
+}
+
+h1 {
+    @extend p;
+}
+
+h2 {
+    @extend p;
+    font-size: 37px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+
+h3 {
+    @extend p;
+    margin: 20px 0px 20px 0px;
+    font-weight: 800;
+    font-size: 27px;
+}
+
+h4 {
+    @extend p;
+    margin: 20px 0px 20px 0px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+    font-family: $font-main;
+
+    &::selection {
+        background-color: $primary-color;
+        color: rgb(15, 15, 15);
+    }
+}
+
+li {
+    color: $primary-color;
+    font-family: $font-main;
+    font-weight: 500;
+    padding: 0px 20px 0px 20px;
+    list-style: none;
+
+    &::selection {
+        background-color: $primary-color;
+        color: rgb(15, 15, 15);
+    }
+}
+
+html .boton::selection {
+    background-color: $primary-color;
+    color: rgb(15, 15, 15);
+}
